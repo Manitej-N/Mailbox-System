@@ -2,7 +2,7 @@
 ### COMP1811 - CW1 Outlook Simulator                                                          ###
 ###            Confidential Class                                                             ###
 ###            <describe the purpose and overall functionality of the class defined here>     ###
-### Partner A:                                                                                ###
+### Author:                                                                                   ###
 ###            <Manitej Narayanadasu>, SID<001448592>                                         ###
 #################################################################################################
 

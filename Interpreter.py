@@ -4,10 +4,8 @@
 ###            Used to as the main program that program will manage all OutlookSim operations ###
 ###            automatically in response to user commands via an interactive command-line     ###
 ###            interface. The interpreter represents the user interacting with their mailbox. ###
-### Partner A:                                                                                ###
-###            <Manitej Narayanadasu>, SID<001448592>                                         ###
-### Partner B:                                                                                ###
-###            <Abdullah Al Noman>, SID<001486922>                                            ###
+### Author:                                                                                   ###
+###            <Manitej Narayanadasu>, SID<001448592>                                         ###                                          ###
 #################################################################################################
 
 # DO NOT CHANGE FUNCTION NAMES

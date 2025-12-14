@@ -1,9 +1,9 @@
 #################################################################################################
 ### COMP1811 - CW1 Outlook Simulator                                                          ###
-###            Personal Class                                                             ###
+###            Personal Class                                                                 ###
 ###            <describe the purpose and overall functionality of the class defined here>     ###
-### Partner B:                                                                                ###
-###            <Abdullah Al Noman>, SID<001486922>                                            ###
+### Author:                                                                                   ###
+###            <Manitej Narayanadasu>, SID<001448592>                                         ###
 #################################################################################################
 
 # DO NOT CHANGE CLASS OR METHOD NAMES/SIGNATURES

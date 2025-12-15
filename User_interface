@@ -1,0 +1,46 @@
+import tkinker as tk
+
+class Simulator:
+    def __init__(self,root):
+        self.root = root
+        self.root.title("Mailbox Simulator")
+        self.root.geometry("1000x1000")
+
+        self.frm()
+        self.to()
+        self.sub()
+        self.body()
+        self.button()
+    def frm(self):
+        self.label_user = tk.Label(self.root,text="From: ")
+        self.label_user.pack()
+        self.entry_user = tk.Entry(self.root)
+        self.entry_user.pack()
+    def to(self):
+        self.label_pass=tk.Label(self.root,text="To: ")
+        self.label_pass.pack()
+        self.entry_pass=tk.Entry(self.root)
+        self.entry_pass.pack()
+    def sub(self):
+        self.label_sub = tk.Label(self.root,text='Subject: ')
+        self.label_sub.pack()
+        self.entry_sub = tk.Entry(self.root)
+        self.entry_sub.pack()
+    def body(self):
+        self.label_body = tk.Label(self.root,text='Body: ')
+        self.label_body.pack()
+        self.entry_body = tk.Entry(self.root)
+        self.entry_body.pack()
+
+    def button(self):
+        self.button_pass=tk.Button(self.root,text='send',command=self.send)
+        self.button_pass.pack()
+
+    def send(self):
+        print(self.entry_user.get(),self.entry_pass.get())
+
+
+if __name__ == '__main__':
+    root = tk.Tk()
+    simulator = Simulator(root)
+    root.mainloop()

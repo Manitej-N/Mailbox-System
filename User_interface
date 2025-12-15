@@ -1,4 +1,4 @@
-import tkinker as tk
+import tkinter as tk
 
 class Simulator:
     def __init__(self,root):
@@ -11,6 +11,7 @@ class Simulator:
         self.sub()
         self.body()
         self.button()
+        self.send()
     def frm(self):
         self.label_user = tk.Label(self.root,text="From: ")
         self.label_user.pack()
